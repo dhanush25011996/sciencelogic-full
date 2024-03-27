@@ -1,0 +1,389 @@
+.automateSection {
+  width: 100% !important;
+}
+.automateContent {
+  /* margin: 100px 0; */
+  width: 100%;
+  background: linear-gradient(#051e4e, #0e73cb);
+
+  margin-left: auto;
+  margin-right: auto;
+  /* padding-left: 0.94rem;
+  padding-right: 0.94rem; */
+}
+.automateHeader {
+  /* font-family: monospace; */
+  padding-top: 20px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.automateTitle {
+  font-size: 25px;
+  font-weight: normal;
+  /* font-family: monospace; */
+  text-align: center;
+  padding-bottom: 30px;
+}
+.automateDescription {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 28px;
+  /* max-width: 958px; */
+  width: 80%;
+  margin: 0 auto 40px;
+}
+.automateDescription a {
+  color: #ffc107;
+}
+.dataFederationHeader h3 {
+  /* font-family: monospace; */
+  color: #fff;
+  font-size: 1.57rem;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* smallCard */
+.dataFederationSmallCard {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.dataFederationSmallCard .smallCardCol {
+  width: 12.5%;
+  padding: 8px;
+}
+
+.automateSectionAnimation.animate .dataFederationSmallCard .smallCardCol.prev1 {
+  transform: translateX(-50%);
+  opacity: 0.5;
+  animation: expandAnimation1 2s ease-in-out forwards;
+}
+
+.automateSectionAnimation.animate .dataFederationSmallCard .smallCardCol.next1 {
+  transform: translateX(50%);
+  opacity: 0.5;
+  animation: expandAnimation2 2s ease-in-out forwards;
+}
+
+.dataFederationSmallCard .smallCard {
+  background-color: #1086e8;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  padding: 10px;
+  line-height: 1.45;
+  font-size: 16px;
+  text-align: center;
+  border-radius: 8px;
+  /* font-family: monospace; */
+}
+
+@keyframes expandAnimation1 {
+  0% {
+    transform: translateX(50%);
+    opacity: 0.2;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes expandAnimation2 {
+  0% {
+    transform: translateX(-50%);
+    opacity: 0.2;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.plusDivider {
+  width: 100%;
+  margin: 15px 0px;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.plusDivider span {
+  color: #fff;
+}
+
+/* toolIntegration largeCard */
+
+.toolsIntegrationLargeCard {
+  /* font-family: monospace; */
+  color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  text-align: center;
+
+  width: 100% !important;
+}
+.toolsIntegrationLargeCard.fourCol .toolsIntegrationCol {
+  width: 22% !important;
+  padding: 10px 16px;
+}
+.toolsIntegrationLargeCard .toolsIntegrationInner {
+  position: relative;
+  height: 100%;
+}
+.automateSectionAnimation.animate .toolsIntegrationLargeCard
+  .toolsIntegrationCol:nth-child(1)
+  .toolsIntegrationOverlay {
+  animation-delay: 0.5s;
+}
+.automateSectionAnimation.animate .toolsIntegrationLargeCard
+  .toolsIntegrationCol:nth-child(2)
+  .toolsIntegrationOverlay {
+  animation-delay: 1s;
+}
+.automateSectionAnimation.animate .toolsIntegrationLargeCard
+  .toolsIntegrationCol:nth-child(3)
+  .toolsIntegrationOverlay {
+  animation-delay: 1.5s;
+}
+.automateSectionAnimation.animate .toolsIntegrationLargeCard
+  .toolsIntegrationCol:nth-child(4)
+  .toolsIntegrationOverlay {
+  animation-delay: 2s;
+}
+.automateSectionAnimation.animate .toolsIntegrationLargeCard
+  .toolsIntegrationCol:nth-child(5)
+  .toolsIntegrationOverlay {
+  animation-delay: 2.5s;
+}
+.automateSectionAnimation.animate .toolsIntegrationLargeCard
+  .toolsIntegrationCol:nth-child(6)
+  .toolsIntegrationOverlay {
+  animation-delay: 3s;
+}
+.automateSectionAnimation.animate .toolsIntegrationLargeCard
+  .toolsIntegrationCol:nth-child(7)
+  .toolsIntegrationOverlay {
+  animation-delay: 3.5s;
+}
+.automateSectionAnimation.animate .toolsIntegrationLargeCard
+  .toolsIntegrationCol:nth-child(8)
+  .toolsIntegrationOverlay {
+  animation-delay: 4s;
+}
+.automateSectionAnimation.animate .toolsIntegrationLargeCard .toolsIntegrationCol .toolsIntegrationOverlay {
+  width: 100%;
+  height: 100%;
+  animation: overlayanimate 3s 1s forwards;
+}
+.toolsIntegrationLargeCard .toolsIntegrationOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 16px;
+  opacity: 0;
+}
+@keyframes overlayanimate {
+  0% {
+    opacity: 0;
+    transform: translate(20%, 20%);
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
+}
+
+.toolsIntegrationLargeCard .toolsIntegrationCard {
+  position: relative;
+  width: 100% !important;
+  height: 100% !important;
+  padding: 20px 20px !important;
+  text-align: center;
+  border-radius: 16px;
+  opacity: 0;
+  background-color: rgba(99, 189, 90, 0.88);
+  color: #fff;
+}
+.automateSectionAnimation.animate .toolsIntegrationLargeCard
+  .toolsIntegrationCol:nth-child(1)
+  .toolsIntegrationCard {
+  animation-delay: 0.5s;
+}
+.automateSectionAnimation.animate .toolsIntegrationLargeCard
+  .toolsIntegrationCol:nth-child(2)
+  .toolsIntegrationCard {
+  animation-delay: 1s;
+}
+.automateSectionAnimation.animate .toolsIntegrationLargeCard
+  .toolsIntegrationCol:nth-child(3)
+  .toolsIntegrationCard {
+  animation-delay: 1.5s;
+}
+.automateSectionAnimation.animate .toolsIntegrationLargeCard
+  .toolsIntegrationCol:nth-child(4)
+  .toolsIntegrationCard {
+  animation-delay: 2s;
+}
+.automateSectionAnimation.animate .toolsIntegrationLargeCard
+  .toolsIntegrationCol:nth-child(5)
+  .toolsIntegrationCard {
+  animation-delay: 2.5s;
+}
+.automateSectionAnimation.animate .toolsIntegrationLargeCard
+  .toolsIntegrationCol:nth-child(6)
+  .toolsIntegrationCard {
+  animation-delay: 3s;
+}
+.automateSectionAnimation.animate .toolsIntegrationLargeCard
+  .toolsIntegrationCol:nth-child(7)
+  .toolsIntegrationCard {
+  animation-delay: 3.5s;
+}
+.automateSectionAnimation.animate .toolsIntegrationLargeCard
+  .toolsIntegrationCol:nth-child(8)
+  .toolsIntegrationCard {
+  animation-delay: 4s;
+}
+.automateSectionAnimation.animate .toolsIntegrationLargeCard .toolsIntegrationCol .toolsIntegrationCard {
+  animation: topAnimate 3s forwards;
+}
+.toolsIntegrationLargeCard.fourCol .toolsIntegrationCol .toolsIntegrationCard {
+  padding: 30px 15px;
+  width: 90%;
+  height: 66%;
+}
+@keyframes topAnimate {
+  0% {
+    opacity: 0;
+    transform: translate(20%, 20%);
+  }
+  30% {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.toolsIntegrationLargeCard .toolsIntegrationCard figure {
+  display: flex;
+  align-items: center;
+  width: 45px;
+  height: 36px;
+  margin: 0 auto 7px;
+  color: #fff;
+}
+.toolsIntegrationLargeCard .toolsIntegrationCard h6 {
+  font-weight: 700;
+  margin-bottom: 5px;
+  font-size: 18px;
+  margin-top: 1px;
+}
+.toolsIntegrationLargeCard .toolsIntegrationCard p {
+  font-size: 11px;
+}
+.toolsIntegrationLargeCard .toolsIntegrationCard figure img {
+  max-height: 100%;
+  width: 100%;
+  height: auto;
+  display: inline-block;
+  vertical-align: top;
+}
+.backToOverview a {
+  /* font-family: monospace; */
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+  font-size: 1rem;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+@media (max-width: 1450px) {
+}
+@media (max-width: 1030px) {
+  .toolsIntegrationLargeCard {
+    width: 100% !important;
+  }
+  .toolsIntegrationCol {
+    width: 25% !important;
+    margin: 0 !important;
+  }
+  .toolsIntegrationCard > h6 {
+    font-size: 15px !important;
+  }
+}
+
+@media (max-width: 780px) {
+  .automateHeader {
+  }
+  .automateDescription {
+    width: 90%;
+  }
+  .dataFederationSmallCard {
+    width: 100%;
+  }
+  .smallCardCol {
+    width: 30% !important;
+  }
+  .toolsIntegrationCard {
+    height: 200px !important ;
+  }
+  .toolsIntegrationCard > h6 {
+    font-size: 10px !important;
+  }
+}
+@media (max-width: 430px) {
+  .automateTitle > h2 {
+    font-size: 25px !important;
+  }
+  .automateDescription {
+    display: flex;
+    flex-direction: column;
+  }
+  .paragraph > p {
+    text-align: left !important;
+    font-size: 18px;
+    font-weight: 400;
+  }
+  .toolsIntegrationCol {
+    width: 50% !important;
+    padding: 0px;
+  }
+  .toolsIntegrationInner {
+    width: 100%;
+  }
+  .toolsIntegrationLargeCard.fourCol .toolsIntegrationCol {
+    width: 40% !important;
+    padding: 10px 5px;
+  }
+}
+@media (max-width: 380px) {
+}
+@media (max-width: 330px) {
+  .toolsIntegrationLargeCard.fourCol .toolsIntegrationCol {
+    width: 40% !important;
+    padding: 5px 2px;
+  }
+  .automateTitle > h2 {
+    font-size: 19px !important;
+  }
+}

@@ -1,0 +1,481 @@
+.aiops2-section {
+  background-color: #042055;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  padding-bottom: 50px;
+}
+
+.aiops2-con {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.aiops2-con1 {
+  margin-bottom: 20px;
+  width: 45%;
+}
+
+.aiops2-con1 > h2 {
+  font-size: 40px;
+  font-weight: 400;
+}
+
+.aiops2-con1 > p {
+  font-size: 15px;
+}
+
+.aiops2-con2 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.aiops2-con21 {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.aiops2-con21-p1 {
+  width: 22%;
+  padding: 5px 0px;
+  border-radius: 10px;
+  font-size: 19px;
+  background-color: #e97104;
+  border-top: 8px solid #cf680c;
+}
+
+.aiops2-con21-p2 {
+  width: 22%;
+  padding: 5px 0px;
+  border-radius: 10px;
+  font-size: 19px;
+  background-color: #f5ba09;
+  border-top: 8px solid #dba910;
+}
+
+.aiops2-con21-p3 {
+  width: 45%;
+  padding: 5px 0px;
+  border-radius: 10px;
+  font-size: 19px;
+  background-color: #59b151;
+  border-top: 8px solid #4fa04f;
+}
+
+.aiops2-con3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 10px;
+  width: 80%;
+  margin-top: 35px;
+}
+
+.aiops2-con4 {
+  width: 100% !important;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.aiops2-con3-col1 {
+  background-color: #021447;
+  width: 95%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px 30px 50px 30px;
+  font-size: 22px;
+  border-radius: 20px;
+  border-right: 10px solid #093079;
+  border-bottom: 15px solid #093079;
+}
+
+.aiops2-con3-col12 {
+  width: 20%;
+}
+
+.aiops2-con4-col1 {
+  background-color: #021447;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 80%;
+  padding: 10px 15px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.aiops2-con4-col1 > h3 {
+  font-size: 18px;
+  padding-bottom: 10px;
+  padding-top: 5px;
+}
+
+.aiops2-con4-col1 > p {
+  font-size: 14px;
+  padding-bottom: 20px;
+  padding-top: 5px;
+}
+
+.aiposicon1 {
+  font-size: 50px;
+  color: #e97104;
+}
+
+.aiposicon2 {
+  font-size: 50px;
+  color: #f5ba09;
+}
+
+.aiposicon3 {
+  font-size: 50px;
+  color: #59b151;
+}
+
+.aiposicon4 {
+  font-size: 50px;
+  color: #59b151;
+}
+.aiops2-con4 {
+  display: flex;
+  flex-direction: column;
+}
+/* ----------------------------------------------------------------------------------- */
+.aipos2Animation.animate .aiops2-con4 > .row1 {
+  transform: translateX(-50%);
+  opacity: 0.5;
+  animation: row1 2s ease-in-out forwards;
+}
+
+@keyframes row1 {
+  from {
+    transform: translateX(100%);
+    opacity: 0.5;
+  }
+
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.aipos2Animation.animate .aiops2-con4 > .row2 {
+  transform: translateX(-50%);
+  opacity: 0;
+  animation: row2 1s ease-in-out forwards;
+}
+
+@keyframes row2 {
+  from {
+    transform: translateX(0);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.aipos2Animation.animate .aiops2-con4 > .row3 {
+  transform: translateX(-50%);
+  opacity: 0;
+  animation: row3 3s ease-in-out forwards;
+}
+
+@keyframes row3 {
+  from {
+    transform: translateX(0);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.aipos2Animation.animate .aiops2-con4 > .row4 {
+  transform: translateX(-50%);
+  opacity: 0.5;
+  animation: row4 1s ease-in-out forwards;
+}
+
+@keyframes row4 {
+  from {
+    transform: translateX(-100%);
+    opacity: 0.5;
+  }
+
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+/* ----------------------------------------------------------------------------------- */
+.aipos2Animation.animate .aiops2-con4 > .colm1 {
+  transform: translateY(50%);
+  opacity: 0;
+  animation: colm1 2s ease-in-out forwards;
+}
+
+@keyframes colm1 {
+  0% {
+    transform: translateY(-50%);
+    opacity: 0;
+  }
+
+  70% {
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.aipos2Animation.animate .aiops2-con4 > .colm2 {
+  transform: translateY(50%);
+  opacity: 0;
+  animation: colm2 2.5s ease-in-out forwards;
+}
+
+@keyframes colm2 {
+  0% {
+    transform: translateY(-50%);
+    opacity: 0;
+  }
+
+  70% {
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.aipos2Animation.animate .aiops2-con4 > .colm3 {
+  transform: translateY(50%);
+  opacity: 0;
+  animation: colm3 3s ease-in-out forwards;
+}
+
+@keyframes colm3 {
+  0% {
+    transform: translateY(-50%);
+    opacity: 0;
+  }
+
+  70% {
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.aipos2Animation.animate .aiops2-con4 > .colm4 {
+  transform: translateY(50%);
+  opacity: 0;
+  animation: colm4 3.5s ease-in-out forwards;
+}
+
+@keyframes colm4 {
+  0% {
+    transform: translateY(-50%);
+    opacity: 0;
+  }
+
+  70% {
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* ----------------------------------------------------------------------------------- */
+
+/* media query */
+
+@media (max-width: 1450px) {
+  .aiops2-con4-col1 {
+    height: 900px;
+  }
+
+  @media (max-width: 1030px) {
+    .aiops2-con3-col1 {
+      font-size: 15px;
+      width: 100%;
+    }
+
+    .aiops2-con4-col1 {
+      width: 90%;
+      height: 1000px;
+    }
+  }
+  @media (max-width: 780px) {
+    .aiops2-con3-col1 {
+      font-size: 15px;
+      padding: 10px 10px 30px 10px;
+    }
+    .aiops2-con4-col1 {
+      width: 90%;
+      height: 900px;
+    }
+    .aiposicon1 {
+      font-size: 40px;
+    }
+    .aiposicon2 {
+      font-size: 35px;
+    }
+    .aiposicon3 {
+      font-size: 40px;
+    }
+    .aiposicon4 {
+      font-size: 35px;
+    }
+    .aiops2-con4-col1 {
+      width: 90%;
+      padding: 10px 5px;
+    }
+    .aiops2-con4-col1 > h3 {
+      font-size: 15px;
+      padding-bottom: 5px;
+    }
+
+    .aiops2-con4-col1 > p {
+      font-size: 12px;
+      padding-bottom: 20px;
+      padding-top: 5px;
+    }
+  }
+
+  @media (max-width: 430px) {
+    .aiops2-con1 {
+      margin-bottom: 20px;
+      width: 80%;
+    }
+    .aiops2-con21 {
+      width: 80%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      gap: 10px;
+    }
+    .aiops2-con21-p1 {
+      width: 90%;
+      font-size: 19px;
+    }
+    .aiops2-con21-p2 {
+      width: 90%;
+      font-size: 19px;
+    }
+    .aiops2-con21-p3 {
+      width: 90%;
+      font-size: 19px;
+    }
+    .aiops2-con3 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      gap: 10px;
+      width: 80%;
+      margin-top: 35px;
+    }
+    .aiposicon1 {
+      font-size: 70px;
+    }
+    .aiposicon2 {
+      font-size: 70px;
+    }
+    .aiposicon3 {
+      font-size: 70px;
+    }
+    .aiposicon4 {
+      font-size: 70px;
+    }
+    .aiops2-con3-col1 {
+      padding: 30px 20px 50px 20px;
+      font-size: 35px;
+    }
+    .aiops2-con4-col1 {
+      width: 90%;
+      height: 800px;
+    }
+    .aiops2-con4-col1 > h3 {
+      font-size: 20px;
+      padding-bottom: 5px;
+    }
+
+    .aiops2-con4-col1 > p {
+      font-size: 17px;
+      padding-bottom: 20px;
+      padding-top: 5px;
+    }
+    .aiops2-con4 {
+      padding-bottom: 10px;
+    }
+  }
+  @media (max-width: 380px) {
+    .aiops2-con4-col1 {
+      width: 90%;
+      height: 900px;
+    }
+    .aiposicon1 {
+      font-size: 70px;
+    }
+    .aiposicon2 {
+      font-size: 60px;
+    }
+    .aiposicon3 {
+      font-size: 70px;
+    }
+    .aiposicon4 {
+      font-size: 60px;
+    }
+  }
+  @media (max-width: 330px) {
+    .aiops2-con4-col1 {
+      width: 90%;
+      height: 1000px;
+    }
+    .aiposicon1 {
+      font-size: 60px;
+    }
+    .aiposicon2 {
+      font-size: 50px;
+    }
+    .aiposicon3 {
+      font-size: 60px;
+    }
+    .aiposicon4 {
+      font-size: 50px;
+    }
+  }
+}
